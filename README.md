@@ -1,5 +1,4 @@
-# A basic Flask app in
-[OpenShift](http://OpenShift.com)
+# A basic Flask app in OpenShift
 
 *With support for serving easy APIs and static content. Based on https://github.com/ryanj/flask-base.git * [![Build Status](http://img.shields.io/travis/ryanj/flask-base.svg)](https://travis-ci.org/ryanj/flask-base)
 
