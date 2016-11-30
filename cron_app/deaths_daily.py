@@ -44,7 +44,7 @@ def mailgun_send_email(email_text):
     request_url = BASE_URL+ SANDBOX+ '/messages'
 
     request = requests.post(request_url, auth=('api', KEY), data={
-        'from': 'Y-town <mailgun@'+ SANDBOX+ '>',
+        'from': 'Vindy <mailgun@'+ SANDBOX+ '>',
         'to': RECIPIENT,
         'subject': 'Vindy Deaths - '+ email_text[1].strip(' \n'),
         'text': email_text
